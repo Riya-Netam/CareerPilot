@@ -1,0 +1,1875 @@
+{
+ "version": 1,
+ "note": "Extend by adding entries. aliases are matched on word boundaries after normalisation. Ambiguous words (go, r, c, excel) are deliberately NOT bare aliases.",
+ "skills": [
+  {
+   "ambiguous_name": false,
+   "name": "Python",
+   "category": "programming_language",
+   "aliases": [
+    "python",
+    "python3"
+   ],
+   "resource_url": "https://docs.python.org/3/tutorial/",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Java",
+   "category": "programming_language",
+   "aliases": [
+    "java",
+    "core java",
+    "java se"
+   ],
+   "resource_url": "https://dev.java/learn/",
+   "effort_hours": [
+    60,
+    120
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "JavaScript",
+   "category": "programming_language",
+   "aliases": [
+    "javascript",
+    "java script",
+    "js",
+    "ecmascript",
+    "es6"
+   ],
+   "resource_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "HTML"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "TypeScript",
+   "category": "programming_language",
+   "aliases": [
+    "typescript",
+    "ts"
+   ],
+   "resource_url": "https://www.typescriptlang.org/docs/",
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "C++",
+   "category": "programming_language",
+   "aliases": [
+    "c++",
+    "cpp"
+   ],
+   "resource_url": "https://isocpp.org/",
+   "effort_hours": [
+    60,
+    120
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": true,
+   "name": "C",
+   "category": "programming_language",
+   "aliases": [
+    "c programming",
+    "c language",
+    "c c++"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    50,
+    100
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "C#",
+   "category": "programming_language",
+   "aliases": [
+    "c#",
+    "csharp",
+    "c sharp"
+   ],
+   "resource_url": "https://learn.microsoft.com/dotnet/csharp/",
+   "effort_hours": [
+    50,
+    100
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": true,
+   "name": "Go",
+   "category": "programming_language",
+   "aliases": [
+    "golang",
+    "go programming",
+    "go language",
+    "go lang"
+   ],
+   "resource_url": "https://go.dev/doc/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Rust",
+   "category": "programming_language",
+   "aliases": [
+    "rust",
+    "rust lang",
+    "rust programming"
+   ],
+   "resource_url": "https://www.rust-lang.org/learn",
+   "effort_hours": [
+    60,
+    120
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": true,
+   "name": "R",
+   "category": "programming_language",
+   "aliases": [
+    "r programming",
+    "r language",
+    "rstudio"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Kotlin",
+   "category": "programming_language",
+   "aliases": [
+    "kotlin"
+   ],
+   "resource_url": "https://kotlinlang.org/docs/home.html",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Java"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Swift",
+   "category": "programming_language",
+   "aliases": [
+    "swift programming",
+    "swiftui",
+    "swift language"
+   ],
+   "resource_url": "https://www.swift.org/documentation/",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "PHP",
+   "category": "programming_language",
+   "aliases": [
+    "php"
+   ],
+   "resource_url": "https://www.php.net/manual/en/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Ruby",
+   "category": "programming_language",
+   "aliases": [
+    "ruby",
+    "ruby on rails",
+    "rails"
+   ],
+   "resource_url": "https://www.ruby-lang.org/en/documentation/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Bash/Shell",
+   "category": "programming_language",
+   "aliases": [
+    "bash",
+    "shell scripting",
+    "shell script"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "HTML",
+   "category": "programming_language",
+   "aliases": [
+    "html",
+    "html5"
+   ],
+   "resource_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "CSS",
+   "category": "programming_language",
+   "aliases": [
+    "css",
+    "css3"
+   ],
+   "resource_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "HTML"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "React",
+   "category": "framework",
+   "aliases": [
+    "react",
+    "reactjs",
+    "react.js"
+   ],
+   "resource_url": "https://react.dev/learn",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Next.js",
+   "category": "framework",
+   "aliases": [
+    "next.js",
+    "nextjs",
+    "next js"
+   ],
+   "resource_url": "https://nextjs.org/docs",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "React"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Angular",
+   "category": "framework",
+   "aliases": [
+    "angular",
+    "angularjs"
+   ],
+   "resource_url": "https://angular.dev/",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "TypeScript"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Vue.js",
+   "category": "framework",
+   "aliases": [
+    "vue",
+    "vue.js",
+    "vuejs"
+   ],
+   "resource_url": "https://vuejs.org/guide/introduction.html",
+   "effort_hours": [
+    25,
+    50
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Node.js",
+   "category": "framework",
+   "aliases": [
+    "node.js",
+    "nodejs",
+    "node js",
+    "node"
+   ],
+   "resource_url": "https://nodejs.org/en/docs",
+   "effort_hours": [
+    25,
+    50
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Express.js",
+   "category": "framework",
+   "aliases": [
+    "express.js",
+    "expressjs",
+    "express js"
+   ],
+   "resource_url": "https://expressjs.com/",
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": [
+    "Node.js"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Django",
+   "category": "framework",
+   "aliases": [
+    "django"
+   ],
+   "resource_url": "https://docs.djangoproject.com/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Flask",
+   "category": "framework",
+   "aliases": [
+    "flask"
+   ],
+   "resource_url": "https://flask.palletsprojects.com/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "FastAPI",
+   "category": "framework",
+   "aliases": [
+    "fastapi",
+    "fast api"
+   ],
+   "resource_url": "https://fastapi.tiangolo.com/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Spring Boot",
+   "category": "framework",
+   "aliases": [
+    "spring boot",
+    "springboot",
+    "spring framework"
+   ],
+   "resource_url": "https://spring.io/guides",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "Java"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": ".NET",
+   "category": "framework",
+   "aliases": [
+    ".net",
+    "dotnet",
+    "asp.net",
+    "asp.net core"
+   ],
+   "resource_url": "https://learn.microsoft.com/dotnet/",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "C#"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Tailwind CSS",
+   "category": "framework",
+   "aliases": [
+    "tailwind",
+    "tailwind css",
+    "tailwindcss"
+   ],
+   "resource_url": "https://tailwindcss.com/docs",
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": [
+    "CSS"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Bootstrap",
+   "category": "framework",
+   "aliases": [
+    "bootstrap"
+   ],
+   "resource_url": "https://getbootstrap.com/docs/",
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": [
+    "CSS"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "REST APIs",
+   "category": "concept",
+   "aliases": [
+    "rest api",
+    "rest apis",
+    "restful",
+    "restful api",
+    "restful apis"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "GraphQL",
+   "category": "concept",
+   "aliases": [
+    "graphql"
+   ],
+   "resource_url": "https://graphql.org/learn/",
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "SQL",
+   "category": "database",
+   "aliases": [
+    "sql",
+    "structured query language"
+   ],
+   "resource_url": "https://www.postgresql.org/docs/current/tutorial.html",
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "PostgreSQL",
+   "category": "database",
+   "aliases": [
+    "postgresql",
+    "postgres",
+    "psql"
+   ],
+   "resource_url": "https://www.postgresql.org/docs/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "MySQL",
+   "category": "database",
+   "aliases": [
+    "mysql"
+   ],
+   "resource_url": "https://dev.mysql.com/doc/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "MongoDB",
+   "category": "database",
+   "aliases": [
+    "mongodb",
+    "mongo db",
+    "mongo"
+   ],
+   "resource_url": "https://www.mongodb.com/docs/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "SQLite",
+   "category": "database",
+   "aliases": [
+    "sqlite",
+    "sqlite3"
+   ],
+   "resource_url": "https://www.sqlite.org/docs.html",
+   "effort_hours": [
+    5,
+    10
+   ],
+   "prerequisites": [
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Redis",
+   "category": "database",
+   "aliases": [
+    "redis"
+   ],
+   "resource_url": "https://redis.io/docs/",
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "NoSQL",
+   "category": "database",
+   "aliases": [
+    "nosql",
+    "no sql"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Elasticsearch",
+   "category": "database",
+   "aliases": [
+    "elasticsearch",
+    "elastic search"
+   ],
+   "resource_url": "https://www.elastic.co/guide/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Machine Learning",
+   "category": "ai_ml",
+   "aliases": [
+    "machine learning",
+    "ml"
+   ],
+   "resource_url": "https://scikit-learn.org/stable/user_guide.html",
+   "effort_hours": [
+    60,
+    120
+   ],
+   "prerequisites": [
+    "Python",
+    "Statistics"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Deep Learning",
+   "category": "ai_ml",
+   "aliases": [
+    "deep learning",
+    "neural networks",
+    "neural network"
+   ],
+   "resource_url": "https://pytorch.org/tutorials/",
+   "effort_hours": [
+    60,
+    120
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Artificial Intelligence",
+   "category": "ai_ml",
+   "aliases": [
+    "artificial intelligence",
+    "ai"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Computer Vision",
+   "category": "ai_ml",
+   "aliases": [
+    "computer vision",
+    "image processing"
+   ],
+   "resource_url": "https://docs.opencv.org/",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "Python",
+    "Deep Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "scikit-learn",
+   "category": "ai_ml",
+   "aliases": [
+    "scikit learn",
+    "scikit-learn",
+    "sklearn"
+   ],
+   "resource_url": "https://scikit-learn.org/stable/",
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": [
+    "Python",
+    "Machine Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "TensorFlow",
+   "category": "ai_ml",
+   "aliases": [
+    "tensorflow",
+    "tf keras",
+    "keras"
+   ],
+   "resource_url": "https://www.tensorflow.org/tutorials",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Python",
+    "Deep Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "PyTorch",
+   "category": "ai_ml",
+   "aliases": [
+    "pytorch",
+    "torch"
+   ],
+   "resource_url": "https://pytorch.org/tutorials/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Python",
+    "Deep Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Reinforcement Learning",
+   "category": "ai_ml",
+   "aliases": [
+    "reinforcement learning"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "MLOps",
+   "category": "ai_ml",
+   "aliases": [
+    "mlops",
+    "ml ops",
+    "model deployment",
+    "model serving"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Machine Learning",
+    "Docker"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Natural Language Processing",
+   "category": "genai_nlp",
+   "aliases": [
+    "natural language processing",
+    "nlp"
+   ],
+   "resource_url": "https://huggingface.co/learn/nlp-course",
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "Python",
+    "Machine Learning"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Generative AI",
+   "category": "genai_nlp",
+   "aliases": [
+    "generative ai",
+    "genai",
+    "gen ai",
+    "gen-ai"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Large Language Models",
+   "category": "genai_nlp",
+   "aliases": [
+    "large language models",
+    "large language model",
+    "llm",
+    "llms"
+   ],
+   "resource_url": "https://huggingface.co/learn",
+   "effort_hours": [
+    25,
+    50
+   ],
+   "prerequisites": [
+    "Python",
+    "Natural Language Processing"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Prompt Engineering",
+   "category": "genai_nlp",
+   "aliases": [
+    "prompt engineering",
+    "prompt design",
+    "prompting"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "RAG",
+   "category": "genai_nlp",
+   "aliases": [
+    "rag",
+    "retrieval augmented generation",
+    "retrieval-augmented generation"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Large Language Models",
+    "Vector Databases"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Vector Databases",
+   "category": "genai_nlp",
+   "aliases": [
+    "vector database",
+    "vector databases",
+    "vector db",
+    "vector store",
+    "pgvector",
+    "faiss",
+    "pinecone",
+    "chroma",
+    "chromadb"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "LangChain",
+   "category": "genai_nlp",
+   "aliases": [
+    "langchain",
+    "lang chain",
+    "langgraph"
+   ],
+   "resource_url": "https://python.langchain.com/docs/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python",
+    "Large Language Models"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Hugging Face",
+   "category": "genai_nlp",
+   "aliases": [
+    "hugging face",
+    "huggingface",
+    "transformers library"
+   ],
+   "resource_url": "https://huggingface.co/docs",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Ollama",
+   "category": "genai_nlp",
+   "aliases": [
+    "ollama"
+   ],
+   "resource_url": "https://ollama.com/",
+   "effort_hours": [
+    3,
+    6
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Fine-tuning",
+   "category": "genai_nlp",
+   "aliases": [
+    "fine tuning",
+    "fine-tuning",
+    "finetuning",
+    "lora",
+    "qlora",
+    "peft"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": [
+    "Large Language Models"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Pandas",
+   "category": "data",
+   "aliases": [
+    "pandas"
+   ],
+   "resource_url": "https://pandas.pydata.org/docs/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "NumPy",
+   "category": "data",
+   "aliases": [
+    "numpy"
+   ],
+   "resource_url": "https://numpy.org/doc/",
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Data Analysis",
+   "category": "data",
+   "aliases": [
+    "data analysis",
+    "data analytics",
+    "exploratory data analysis",
+    "eda"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    25,
+    50
+   ],
+   "prerequisites": [
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Data Visualization",
+   "category": "data",
+   "aliases": [
+    "data visualization",
+    "data visualisation",
+    "matplotlib",
+    "seaborn",
+    "plotly"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Power BI",
+   "category": "data",
+   "aliases": [
+    "power bi",
+    "powerbi"
+   ],
+   "resource_url": "https://learn.microsoft.com/power-bi/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Tableau",
+   "category": "data",
+   "aliases": [
+    "tableau"
+   ],
+   "resource_url": "https://www.tableau.com/learn",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Microsoft Excel",
+   "category": "data",
+   "aliases": [
+    "ms excel",
+    "microsoft excel",
+    "advanced excel",
+    "excel spreadsheets",
+    "excel formulas"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Statistics",
+   "category": "data",
+   "aliases": [
+    "statistics",
+    "statistical analysis",
+    "statistical modeling",
+    "statistical modelling"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Data Engineering",
+   "category": "data",
+   "aliases": [
+    "data engineering",
+    "data pipelines",
+    "data pipeline",
+    "etl",
+    "elt"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "SQL",
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Apache Spark",
+   "category": "data",
+   "aliases": [
+    "spark",
+    "apache spark",
+    "pyspark"
+   ],
+   "resource_url": "https://spark.apache.org/docs/latest/",
+   "effort_hours": [
+    25,
+    50
+   ],
+   "prerequisites": [
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Apache Kafka",
+   "category": "data",
+   "aliases": [
+    "kafka",
+    "apache kafka"
+   ],
+   "resource_url": "https://kafka.apache.org/documentation/",
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Airflow",
+   "category": "data",
+   "aliases": [
+    "airflow",
+    "apache airflow"
+   ],
+   "resource_url": "https://airflow.apache.org/docs/",
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "AWS",
+   "category": "cloud_devops",
+   "aliases": [
+    "aws",
+    "amazon web services",
+    "ec2",
+    "s3",
+    "aws lambda"
+   ],
+   "resource_url": "https://docs.aws.amazon.com/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Microsoft Azure",
+   "category": "cloud_devops",
+   "aliases": [
+    "azure",
+    "microsoft azure"
+   ],
+   "resource_url": "https://learn.microsoft.com/azure/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Google Cloud",
+   "category": "cloud_devops",
+   "aliases": [
+    "gcp",
+    "google cloud",
+    "google cloud platform"
+   ],
+   "resource_url": "https://cloud.google.com/docs",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Docker",
+   "category": "cloud_devops",
+   "aliases": [
+    "docker",
+    "containerization",
+    "containers",
+    "dockerfile",
+    "docker compose"
+   ],
+   "resource_url": "https://docs.docker.com/get-started/",
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Kubernetes",
+   "category": "cloud_devops",
+   "aliases": [
+    "kubernetes",
+    "k8s"
+   ],
+   "resource_url": "https://kubernetes.io/docs/home/",
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": [
+    "Docker"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "CI/CD",
+   "category": "cloud_devops",
+   "aliases": [
+    "ci cd",
+    "cicd",
+    "continuous integration",
+    "continuous delivery",
+    "continuous deployment"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": [
+    "Git"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "GitHub Actions",
+   "category": "cloud_devops",
+   "aliases": [
+    "github actions"
+   ],
+   "resource_url": "https://docs.github.com/actions",
+   "effort_hours": [
+    5,
+    12
+   ],
+   "prerequisites": [
+    "Git"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Jenkins",
+   "category": "cloud_devops",
+   "aliases": [
+    "jenkins"
+   ],
+   "resource_url": "https://www.jenkins.io/doc/",
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Terraform",
+   "category": "cloud_devops",
+   "aliases": [
+    "terraform",
+    "infrastructure as code",
+    "iac"
+   ],
+   "resource_url": "https://developer.hashicorp.com/terraform/docs",
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Linux",
+   "category": "cloud_devops",
+   "aliases": [
+    "linux",
+    "unix",
+    "ubuntu"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    20,
+    40
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Nginx",
+   "category": "cloud_devops",
+   "aliases": [
+    "nginx"
+   ],
+   "resource_url": "https://nginx.org/en/docs/",
+   "effort_hours": [
+    5,
+    12
+   ],
+   "prerequisites": [
+    "Linux"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Git",
+   "category": "tools",
+   "aliases": [
+    "git",
+    "version control"
+   ],
+   "resource_url": "https://git-scm.com/doc",
+   "effort_hours": [
+    5,
+    12
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "GitHub",
+   "category": "tools",
+   "aliases": [
+    "github",
+    "gitlab",
+    "bitbucket"
+   ],
+   "resource_url": "https://docs.github.com/",
+   "effort_hours": [
+    3,
+    8
+   ],
+   "prerequisites": [
+    "Git"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Jira",
+   "category": "tools",
+   "aliases": [
+    "jira"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    3,
+    6
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Postman",
+   "category": "tools",
+   "aliases": [
+    "postman"
+   ],
+   "resource_url": "https://learning.postman.com/docs/",
+   "effort_hours": [
+    3,
+    6
+   ],
+   "prerequisites": [
+    "REST APIs"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "VS Code",
+   "category": "tools",
+   "aliases": [
+    "vs code",
+    "vscode",
+    "visual studio code"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    1,
+    3
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Jupyter",
+   "category": "tools",
+   "aliases": [
+    "jupyter",
+    "jupyter notebook",
+    "google colab",
+    "colab"
+   ],
+   "resource_url": "https://docs.jupyter.org/",
+   "effort_hours": [
+    2,
+    5
+   ],
+   "prerequisites": [
+    "Python"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Figma",
+   "category": "tools",
+   "aliases": [
+    "figma"
+   ],
+   "resource_url": "https://help.figma.com/",
+   "effort_hours": [
+    8,
+    16
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Data Structures",
+   "category": "concept",
+   "aliases": [
+    "data structures",
+    "data structure"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Algorithms",
+   "category": "concept",
+   "aliases": [
+    "algorithms",
+    "algorithm design"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "Data Structures"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Object-Oriented Programming",
+   "category": "concept",
+   "aliases": [
+    "object oriented programming",
+    "object oriented",
+    "oop",
+    "oops",
+    "object-oriented"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "System Design",
+   "category": "concept",
+   "aliases": [
+    "system design",
+    "software architecture",
+    "distributed systems",
+    "scalable systems"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    30,
+    60
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Microservices",
+   "category": "concept",
+   "aliases": [
+    "microservices",
+    "micro services",
+    "microservice architecture"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": [
+    "REST APIs"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Agile",
+   "category": "concept",
+   "aliases": [
+    "agile",
+    "scrum",
+    "kanban",
+    "agile methodologies"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    4,
+    8
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Unit Testing",
+   "category": "concept",
+   "aliases": [
+    "unit testing",
+    "unit tests",
+    "pytest",
+    "junit",
+    "jest",
+    "test driven development",
+    "tdd",
+    "automated testing"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    20
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Authentication & Security",
+   "category": "concept",
+   "aliases": [
+    "authentication",
+    "authorization",
+    "oauth",
+    "jwt",
+    "owasp",
+    "application security",
+    "cybersecurity",
+    "cyber security"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    15,
+    30
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Web Development",
+   "category": "concept",
+   "aliases": [
+    "web development",
+    "web applications",
+    "full stack",
+    "full-stack",
+    "fullstack",
+    "frontend",
+    "front end",
+    "front-end",
+    "backend",
+    "back end",
+    "back-end"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    40,
+    80
+   ],
+   "prerequisites": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "API Development",
+   "category": "concept",
+   "aliases": [
+    "api development",
+    "api design",
+    "apis",
+    "web services"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    12,
+    25
+   ],
+   "prerequisites": [
+    "REST APIs"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Responsive Design",
+   "category": "concept",
+   "aliases": [
+    "responsive design",
+    "responsive web design",
+    "mobile first"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    6,
+    12
+   ],
+   "prerequisites": [
+    "CSS"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Database Design",
+   "category": "concept",
+   "aliases": [
+    "database design",
+    "data modeling",
+    "data modelling",
+    "schema design",
+    "normalization",
+    "normalisation"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    10,
+    25
+   ],
+   "prerequisites": [
+    "SQL"
+   ]
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Communication",
+   "category": "soft_skill",
+   "aliases": [
+    "communication",
+    "communication skills",
+    "written communication",
+    "verbal communication",
+    "excellent communication",
+    "good communication"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Teamwork",
+   "category": "soft_skill",
+   "aliases": [
+    "teamwork",
+    "team player",
+    "collaboration",
+    "collaborate",
+    "collaborative",
+    "work in a team",
+    "cross functional",
+    "cross-functional"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Problem Solving",
+   "category": "soft_skill",
+   "aliases": [
+    "problem solving",
+    "problem-solving",
+    "analytical skills",
+    "analytical thinking",
+    "critical thinking"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Leadership",
+   "category": "soft_skill",
+   "aliases": [
+    "leadership",
+    "team lead",
+    "mentoring",
+    "mentor",
+    "lead a team"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Time Management",
+   "category": "soft_skill",
+   "aliases": [
+    "time management",
+    "prioritization",
+    "prioritisation",
+    "meet deadlines"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Adaptability",
+   "category": "soft_skill",
+   "aliases": [
+    "adaptability",
+    "adaptable",
+    "fast learner",
+    "quick learner",
+    "willingness to learn",
+    "eager to learn"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  },
+  {
+   "ambiguous_name": false,
+   "name": "Presentation Skills",
+   "category": "soft_skill",
+   "aliases": [
+    "presentation skills",
+    "public speaking",
+    "stakeholder management"
+   ],
+   "resource_url": null,
+   "effort_hours": [
+    0,
+    0
+   ],
+   "prerequisites": []
+  }
+ ]
+}

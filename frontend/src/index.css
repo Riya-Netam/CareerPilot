@@ -1,0 +1,13 @@
+@import "@fontsource-variable/figtree";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { @apply bg-paper text-ink antialiased; }
+  body { @apply font-sans text-[15px] leading-relaxed; }
+  :focus-visible { @apply outline-none ring-2 ring-teal ring-offset-2 ring-offset-paper; }
+  h1 { @apply text-2xl font-bold tracking-tight; }
+  h2 { @apply text-lg font-semibold; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

@@ -1,0 +1,39 @@
+# Local development database. The app itself runs with uvicorn / vite (see README).
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: careerpilot
+      POSTGRES_PASSWORD: careerpilot   # local development only
+      POSTGRES_DB: careerpilot
+    ports:
+      - "5432:5432"
+    volumes:
+      - careerpilot_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U careerpilot"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Optional: run the whole stack in containers with:  docker compose --profile full up --build
+  api:
+    profiles: ["full"]
+    build: ./backend
+    environment:
+      ENVIRONMENT: development
+      SECRET_KEY: local-dev-secret-key-change-me-0123456789abcdef
+      DATABASE_URL: postgresql+psycopg://careerpilot:careerpilot@db:5432/careerpilot
+      FRONTEND_URL: http://localhost:5173
+      CORS_ORIGINS: http://localhost:5173
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+volumes:
+  careerpilot_pgdata:
