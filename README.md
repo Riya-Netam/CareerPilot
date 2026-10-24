@@ -1,4 +1,11 @@
-# CareerPilot AI: Your Personal AI Career Guide
+# CareerPilot AI
+
+**Live demo:** https://career-pilot-sandy-nine.vercel.app
+*(Hosted on free tiers, so the first load after a quiet period can take about a minute.)*
+
+Compare your resume with any job description and see which skills match, which were **not found in your resume**, and what to learn first, with every decision explained.
+
+Built with React, TypeScript, FastAPI and PostgreSQL. Tested with 83 automated tests (69 backend, 14 frontend).
 
 CareerPilot AI compares a resume with a job description and explains, in plain terms, which skills the job asks for, which your resume shows, which were **not found in your resume**, and what to learn first. It also provides a resume analyzer, learning roadmaps with progress tracking, cover-letter drafts, a job-application tracker, a dashboard, and a protected admin panel.
 
