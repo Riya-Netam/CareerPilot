@@ -21,7 +21,8 @@ class Settings(BaseSettings):
     SESSION_DAYS: int = 7
     TRUST_PROXY: bool = False
 
-    EMAIL_MODE: Literal["console", "smtp"] = "console"
+    EMAIL_MODE: Literal["console", "smtp", "brevo_api"] = "console"
+    BREVO_API_KEY: str = ""
     EMAIL_FROM: str = "CareerPilot AI <no-reply@example.com>"
     SMTP_HOST: str = ""
     SMTP_PORT: int = 587
