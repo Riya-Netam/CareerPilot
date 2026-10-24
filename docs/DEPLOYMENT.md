@@ -45,14 +45,11 @@ COOKIE_SAMESITE=lax
 TRUST_PROXY=true
 AI_ENABLED=false
 STORE_ORIGINAL_FILES=false
-EMAIL_MODE=smtp
+EMAIL_MODE=brevo_api
 EMAIL_FROM=CareerPilot AI <your-verified-sender@example.com>
-SMTP_HOST=smtp-relay.brevo.com
-SMTP_PORT=587
-SMTP_USERNAME=<from Brevo>
-SMTP_PASSWORD=<from Brevo SMTP key>
+BREVO_API_KEY=<Brevo API key with the Transactional email permission>
 ```
-(`STORE_ORIGINAL_FILES=false` because the free instance disk is not persistent; resumes are still analysed and their extracted text is stored in the database.) Verify the Brevo host/port and sender rules in Brevo's SMTP settings page.
+(`STORE_ORIGINAL_FILES=false` because the free instance disk is not persistent; resumes are still analysed and their extracted text is stored in the database.) The sender address must show as Verified in Brevo (Senders, domains, IPs). See the next section for why this uses Brevo's API instead of SMTP.
 
 ### 4. Frontend (Vercel)
 Import the repo, root directory `frontend`, framework Vite. Edit `frontend/vercel.json` and replace `YOUR-BACKEND-URL` with your Render URL (no trailing slash). The `/api` rewrite makes the browser see one origin, so cookies stay first-party. Deploy, then put the final Vercel URL into the backend's `FRONTEND_URL` and `CORS_ORIGINS`.
@@ -72,6 +69,14 @@ Remove-Item Env:DATABASE_URL
 3. Upload a DOCX resume, analyse a pasted job description, create a roadmap and a cover letter.
 4. Sign in as admin: Admin > AI & health shows database OK and configuration checks.
 5. Browser dev tools: the session cookie is `Secure` and `HttpOnly`.
+
+## Email on Render's free tier (important)
+Render blocks outbound SMTP ports 25, 465 and 587 for free web services (announced September 2025), so `EMAIL_MODE=smtp` to Brevo fails there: the sign-up succeeds but the verification email never leaves. Use `EMAIL_MODE=brevo_api`, which sends over HTTPS (port 443) and works on the free tier.
+1. In Brevo open SMTP & API, then the API Keys tab, and create a key with only the Transactional email permission.
+2. In Render set `EMAIL_MODE=brevo_api` and `BREVO_API_KEY=<the key>`; the SMTP variables are no longer used.
+3. Free Gmail addresses are not authenticated senders (no DKIM/DMARC), so messages may land in spam. Check the spam and promotions tabs. Using an address on a domain you own, with Brevo's domain authentication, improves delivery.
+4. If Brevo answers with an unrecognised-IP error, turn off Authorised IPs blocking in Brevo's Security settings (Render's outbound addresses change).
+Local development is unaffected: `EMAIL_MODE=console` still prints links in the backend terminal.
 
 ## Known caveats
 - If resume uploads fail through the Vercel rewrite (proxy size or timeout limits), either switch to a Render Static Site with a rewrite rule for `/api`, or set `VITE_API_BASE` to the backend URL with `COOKIE_SAMESITE=none` and exact `CORS_ORIGINS`; some browsers block third-party cookies, so the rewrite approach is preferred.

@@ -1,5 +1,12 @@
 # Limitations, test status and resume blurb
 
+## Verified by the project owner after generation (October 2026)
+- Backend tests (`pytest`): 69 passed on the owner's machine, after two bugs in the test setup were fixed.
+- Frontend tests (`npm test`): 14 passed.
+- Deployed to free tiers (Vercel frontend, Render backend, Neon PostgreSQL) and a real sign-up with an emailed verification link was completed.
+
+The table below records the state at the moment the code was generated, before those runs.
+
 ## What was actually executed when this project was generated
 The build environment had **no internet access** and only Python 3.12, Node 22 and `python-docx` installed. Because FastAPI, SQLAlchemy, PostgreSQL, npm packages and Ollama could not be installed, the following is the honest status:
 

@@ -44,7 +44,7 @@ export function RegisterPage() {
   const { register, handleSubmit, formState: { errors } } = useForm<RegisterForm>({ resolver: zodResolver(registerSchema) });
   const m = useMutation({ mutationFn: (v: RegisterForm) => api.post<{ message: string }>("/auth/register", v) });
   if (m.isSuccess) return (
-    <AuthLayout title="Check your email"><p className="text-sm text-ink-soft">We sent a verification link. It is valid for 24 hours. In local development the link is printed in the backend terminal.</p><Link className="mt-4 inline-block text-sm font-semibold underline" to="/login">Back to sign in</Link></AuthLayout>
+    <AuthLayout title="Check your email"><p className="text-sm text-ink-soft">We sent a verification link to your email. It is valid for 24 hours. If it does not arrive within a few minutes, check your spam or promotions folder.</p><Link className="mt-4 inline-block text-sm font-semibold underline" to="/login">Back to sign in</Link></AuthLayout>
   );
   return (
     <AuthLayout title="Create your account" subtitle="Free to use. Your data stays private to you.">
